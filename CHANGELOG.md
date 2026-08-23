@@ -102,7 +102,7 @@ Initial release.
 - Advises against the Migrate to Flow tool as a migration strategy, since it converts 1:1
   and multiplies rather than reduces the maintenance surface.
 
-[Unreleased]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.2.0...HEAD
-[1.2.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/releases/tag/v1.0.0
+[Unreleased]: https://github.com/divyeshardeshana/salesforce-administrator/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/divyeshardeshana/salesforce-administrator/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/divyeshardeshana/salesforce-administrator/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/divyeshardeshana/salesforce-administrator/releases/tag/v1.0.0

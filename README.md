@@ -60,7 +60,7 @@ access — in that order, every time.
 ### Claude Code / Claude Cowork
 
 ```bash
-git clone https://github.com/savvydatacloudconsulting/salesforce-administrator.git
+git clone https://github.com/divyeshardeshana/salesforce-administrator.git
 cp -r salesforce-administrator ~/.claude/skills/
 ```
 
@@ -70,13 +70,13 @@ Restart your session to pick it up.
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/savvydatacloudconsulting/salesforce-administrator.git .claude/skills/salesforce-administrator
+git clone https://github.com/divyeshardeshana/salesforce-administrator.git .claude/skills/salesforce-administrator
 ```
 
 ### skills.sh
 
 ```bash
-npx skills add savvydatacloudconsulting/salesforce-administrator
+npx skills add divyeshardeshana/salesforce-administrator
 ```
 
 ### Other agents

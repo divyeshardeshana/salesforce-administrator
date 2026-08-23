@@ -289,5 +289,5 @@ Do not escalate to avoid learning Flow. Do not build a 60-element Flow to avoid 
 
 ---
 
-[Documentation](https://github.com/savvydatacloudconsulting/salesforce-administrator) ·
-[Report an issue](https://github.com/savvydatacloudconsulting/salesforce-administrator/issues)
+[Documentation](https://github.com/divyeshardeshana/salesforce-administrator) ·
+[Report an issue](https://github.com/divyeshardeshana/salesforce-administrator/issues)
