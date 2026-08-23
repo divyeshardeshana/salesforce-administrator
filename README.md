@@ -11,7 +11,7 @@ Flow automation, reporting, and release management.
 Covers the clicks-not-code half of the platform: the work an admin does in Setup, not in an
 IDE. Composes with developer-focused Salesforce skills rather than duplicating them.
 
-Maintained by [Savvy Data Cloud Consulting](https://github.com/savvydatacloudconsulting).
+Maintained by [Divyesh Ardeshana](https://github.com/divyeshardeshana).
 
 ---
 
