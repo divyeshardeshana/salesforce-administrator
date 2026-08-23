@@ -7,6 +7,31 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [1.1.0] — 2026-08-23
+
+### Added
+
+- `references/sales-cloud.md` — lead management and assignment rules, lead conversion with
+  field-mapping data-loss warning, sales processes and stage design, Opportunity Path,
+  teams and splits, contact roles, product and price book object model, product schedules,
+  quotes and the standard-vs-CPQ boundary, collaborative forecasting and quota loading,
+  custom fiscal year irreversibility, Enterprise Territory Management, campaigns and
+  influence attribution, activity capture trade-offs including Einstein Activity Capture
+  reportability, sales automation patterns, sales metrics groundwork, troubleshooting table
+- `references/service-cloud.md` — Case object anatomy and support processes, assignment
+  rules, queues, Omni-Channel routing models and capacity, skills-based routing, escalation
+  rules against business hours, entitlements and milestone lifecycle, Email-to-Case
+  threading, Web-to-Case limits, auto-response loops, Lightning Knowledge and data
+  categories, service console, macros and quick text, CTI and Service Cloud Voice, case
+  automation patterns including milestone pausing, service metrics with business-hours
+  caveat, troubleshooting table
+
+### Changed
+
+- `SKILL.md` — routing table extended to six references; `description` and `triggers`
+  updated to cover Sales Cloud and Service Cloud terminology; version bumped to 1.1.0
+- `README.md` — contents table, structure diagram, and usage examples updated
+
 ## [1.0.0] — 2026-08-23
 
 Initial release.
@@ -45,5 +70,6 @@ Initial release.
 - Advises against the Migrate to Flow tool as a migration strategy, since it converts 1:1
   and multiplies rather than reduces the maintenance surface.
 
-[Unreleased]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/releases/tag/v1.0.0

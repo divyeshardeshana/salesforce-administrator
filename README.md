@@ -20,6 +20,8 @@ Maintained by [Savvy Data Cloud Consulting](https://github.com/savvydatacloudcon
 | Reference | Scope |
 |---|---|
 | [`data-model-security.md`](references/data-model-security.md) | Objects, relationships, field types, record types, Dynamic Forms, profiles, permission sets and groups, OWD, role hierarchy, sharing rules, restriction rules, guest user hardening, security audit checklist |
+| [`sales-cloud.md`](references/sales-cloud.md) | Lead assignment and conversion field mapping, opportunity stages and Path, products and price books, quotes and the CPQ boundary, collaborative forecasting, territory management, campaign influence, activity capture trade-offs |
+| [`service-cloud.md`](references/service-cloud.md) | Case model and support processes, assignment and escalation rules, queues, Omni-Channel routing and capacity, entitlements and milestones, Email-to-Case and Web-to-Case, Knowledge and data categories, console productivity, service metrics |
 | [`flow-automation.md`](references/flow-automation.md) | Record-triggered Flow architecture, before-save vs after-save, bulkification, fault paths, screen flows, validation rules, approval processes, legacy automation migration, order of execution, debugging |
 | [`reporting-analytics.md`](references/reporting-analytics.md) | Custom report types, join semantics, report formats, cross filters, row-level and summary formulas, `PARENTGROUPVAL` / `PREVGROUPVAL`, bucket fields, dashboards, running-user behaviour, performance at scale, reporting snapshots |
 | [`org-management-release.md`](references/org-management-release.md) | Sandbox strategy and post-refresh checklist, change sets vs DX, deployment runbook, Data Loader and upsert patterns, duplicate management, backup reality, user onboarding/offboarding, Health Check, Optimizer, seasonal releases, inherited-org assessment |
@@ -120,6 +122,28 @@ This Flow hits the SOQL limit on a 200-record import. Fix it.
 Should this be a validation rule or a Flow Custom Error?
 ```
 
+**Sales Cloud**
+```
+Which custom Lead fields will lose data on conversion?
+
+Design the stage model and exit criteria for a 6-stage sales process.
+
+Our forecast doesn't match the pipeline report. Diagnose it.
+
+Do we need CPQ or will standard Quotes cover this?
+```
+
+**Service Cloud**
+```
+Set up entitlements so First Response is tracked against business hours.
+
+Cases created manually aren't being assigned. Why?
+
+Design Omni-Channel routing for three tiers with skills-based escalation.
+
+Our SLA report shows 60-hour resolutions on 2-hour tickets. Fix it.
+```
+
 **Reporting**
 ```
 Build a matrix report showing month-over-month pipeline growth by region.
@@ -152,6 +176,8 @@ salesforce-administrator/
 └── references/
     ├── data-model-security.md
     ├── flow-automation.md
+    ├── sales-cloud.md
+    ├── service-cloud.md
     ├── reporting-analytics.md
     └── org-management-release.md
 ```
