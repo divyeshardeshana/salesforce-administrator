@@ -23,6 +23,9 @@ Maintained by [Savvy Data Cloud Consulting](https://github.com/savvydatacloudcon
 | [`sales-cloud.md`](references/sales-cloud.md) | Lead assignment and conversion field mapping, opportunity stages and Path, products and price books, quotes and the CPQ boundary, collaborative forecasting, territory management, campaign influence, activity capture trade-offs |
 | [`service-cloud.md`](references/service-cloud.md) | Case model and support processes, assignment and escalation rules, queues, Omni-Channel routing and capacity, entitlements and milestones, Email-to-Case and Web-to-Case, Knowledge and data categories, console productivity, service metrics |
 | [`flow-automation.md`](references/flow-automation.md) | Record-triggered Flow architecture, before-save vs after-save, bulkification, fault paths, screen flows, validation rules, approval processes, legacy automation migration, order of execution, debugging |
+| [`lightning-experience-ux.md`](references/lightning-experience-ux.md) | Lightning apps and console navigation, record page assignment, Dynamic Forms and Dynamic Actions, quick actions and JavaScript button migration, list views and Kanban, Path, in-app guidance, compact layouts, mobile, Classic-to-Lightning sequencing |
+| [`integration-admin.md`](references/integration-admin.md) | Integration user provisioning and the Modify All Data trap, Connected Apps and OAuth scope discipline, Named Credentials and External Credentials, External Services, Salesforce Connect and external objects, Platform Events and CDC, API limits and monitoring, middleware boundary, SSO, integration register |
+| [`ai-and-data-cloud.md`](references/ai-and-data-cloud.md) | Licensing prerequisites and data residency, Einstein Trust Layer configuration and the prompt journey, Prompt Builder template types and authoring discipline, Agentforce topics/instructions/actions, predictive Einstein volume thresholds, Data Cloud ingestion and identity resolution, consumption cost realities |
 | [`reporting-analytics.md`](references/reporting-analytics.md) | Custom report types, join semantics, report formats, cross filters, row-level and summary formulas, `PARENTGROUPVAL` / `PREVGROUPVAL`, bucket fields, dashboards, running-user behaviour, performance at scale, reporting snapshots |
 | [`org-management-release.md`](references/org-management-release.md) | Sandbox strategy and post-refresh checklist, change sets vs DX, deployment runbook, Data Loader and upsert patterns, duplicate management, backup reality, user onboarding/offboarding, Health Check, Optimizer, seasonal releases, inherited-org assessment |
 
@@ -153,6 +156,33 @@ Show me Accounts that have not bought anything this fiscal year.
 This report times out. Diagnose it.
 ```
 
+**Lightning UX**
+```
+A field vanished from the record page after a colleague's change. Why?
+
+We have 40 page layouts to vary field visibility. Consolidate with Dynamic Forms.
+
+Plan the Classic-to-Lightning migration, starting with JavaScript buttons.
+```
+
+**Integration**
+```
+Audit our Connected Apps for over-broad OAuth scopes.
+
+Our integration broke after the sandbox refresh. What did we miss?
+
+Direct integration or middleware for this? Three systems, bidirectional.
+```
+
+**AI**
+```
+What do we actually need provisioned before Agentforce will work?
+
+Write a grounded Prompt Builder template for a case escalation summary.
+
+Our Einstein Lead Scoring won't activate. Why?
+```
+
 **Org management**
 ```
 Write a post-refresh checklist for a Full Copy sandbox.
@@ -178,6 +208,9 @@ salesforce-administrator/
     ├── flow-automation.md
     ├── sales-cloud.md
     ├── service-cloud.md
+    ├── lightning-experience-ux.md
+    ├── integration-admin.md
+    ├── ai-and-data-cloud.md
     ├── reporting-analytics.md
     └── org-management-release.md
 ```

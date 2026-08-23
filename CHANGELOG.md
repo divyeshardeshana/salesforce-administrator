@@ -7,6 +7,38 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [1.2.0] — 2026-08-23
+
+### Added
+
+- `references/lightning-experience-ux.md` — the four-surface page layer model, Lightning
+  apps and console vs standard navigation, utility bar, record page assignment by
+  App/Record Type/Profile, component visibility filters, Dynamic Forms migration and
+  constraints, Dynamic Actions, quick actions and predefined field values, JavaScript
+  button migration paths, list views and Kanban, Path, in-app guidance, compact layouts,
+  home and app pages, mobile and Briefcase Builder, Classic-to-Lightning sequencing,
+  troubleshooting table
+- `references/integration-admin.md` — integration user provisioning and least privilege,
+  the object-scoped vs org-wide Modify All Data distinction, Connected Apps with OAuth
+  scope guidance and policy configuration, OAuth usage auditing, Named Credentials and
+  External Credentials with the post-refresh secret caveat, External Services, Salesforce
+  Connect and external object limitations, Platform Events and Change Data Capture, API
+  limits and notification thresholds, middleware decision boundary, SAML SSO and JIT
+  provisioning, the integration register, monitoring signals, troubleshooting table
+- `references/ai-and-data-cloud.md` — the stack dependency chain, licensing and
+  provisioning prerequisites, data residency, Einstein Trust Layer prompt journey and
+  configuration, Trust Layer call volume per Agentforce turn, Prompt Builder template types
+  and authoring discipline, Agentforce TIA model and governance, predictive Einstein
+  historical volume thresholds, Data Cloud concepts, ingestion paths including zero-copy,
+  identity resolution, consumption model, admin checklist, expectation-setting guidance,
+  troubleshooting table
+
+### Changed
+
+- `SKILL.md` — routing table extended to nine references; `description` and `triggers`
+  updated; version bumped to 1.2.0
+- `README.md` — contents table, structure diagram, and three new usage blocks
+
 ## [1.1.0] — 2026-08-23
 
 ### Added
@@ -70,6 +102,7 @@ Initial release.
 - Advises against the Migrate to Flow tool as a migration strategy, since it converts 1:1
   and multiplies rather than reduces the maintenance surface.
 
-[Unreleased]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/savvydatacloudconsulting/salesforce-administrator/releases/tag/v1.0.0
